@@ -172,7 +172,7 @@ const openModal = (data) => {
   modalContainer.classList.add('open-modal-container');
 
   setTimeout(() => {
-    modal.classList.add('open-modal');
+    // modal.classList.add('open-modal');
     body.style.overflow = 'hidden';
     window.scrollTo(0, 0);
   }, 500);
